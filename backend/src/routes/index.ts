@@ -6,7 +6,7 @@ mainRouter.get("/", (c) => {
   return c.json({ message: "Welcome to the API" });
 });
 
-mainRouter.post("signup", (c) => {
+mainRouter.post("/signup", (c) => {
   return c.json({ message: "Signup success" });
 });
 
